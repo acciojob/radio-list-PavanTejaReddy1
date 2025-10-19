@@ -1,9 +1,11 @@
-   .input label {
+  .input {
       color: red;
     }
 
     .radio-group {
       margin: 6px 0;
+      font-family: Arial, sans-serif;
+      font-size: 16px;
     }
 
     input[type="radio"]:disabled + label {
