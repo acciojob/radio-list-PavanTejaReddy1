@@ -1,18 +1,12 @@
-.input {
+   .input label {
       color: red;
     }
 
-    label {
-      font-family: Arial, sans-serif;
-      font-size: 16px;
-      margin-left: 6px;
+    .radio-group {
+      margin: 6px 0;
     }
 
     input[type="radio"]:disabled + label {
       opacity: 0.6;
       cursor: not-allowed;
-    }
-
-    div {
-      margin: 6px 0;
     }
