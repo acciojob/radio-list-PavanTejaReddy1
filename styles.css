@@ -1,1 +1,14 @@
-/*  your css code here. If applicable */
+.input {
+	color: red;
+}
+
+label {
+	margin: 6px 0;
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+}
+
+input[type="radio"]:disabled + label {
+	opacity: 0.6;
+	cursor: not-allowed;
+}
